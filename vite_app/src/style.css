@@ -52,8 +52,200 @@ body{
     background-color: #282828;
 }
 
+.last .bottom{
+    width: 100vw;
+   
+    background-color: #1FD761;
+    
+    top: 726px;
+    right: 3%;
+    text-align: right;
+}
+.bottom1{
+display: flex;
+
+    
+}
+.bottom1 span{
+    margin: 18px 1px;
+}
+.bottom1 .heart{
+    width: 20px;
+    height: 20px;
+    margin: 20px 10px;
+}
+.bottom1 .middle img{
+    width: 550px;
+    margin: 0px 180px;
+}
+.bottom1 .left img{
+    width: 210px;
+    margin: 25px 12px;
+}
+.last .bottom1 .right{
+    display: flex;
+    width: 100px;
+    height: 53px;
+}
+.bottom1 .right{
+    flex: 1;
+}
+.bottom1 .right .j{
+    height: 47px;
+    width: 49px;
+    margin: 12px 10px;
+    
+}
 .last{
     background-color: #282828;
     position: sticky;
     bottom: 0;
+}
+.top-ar{
+    position: absolute;
+width: 100%;
+height: 100px;
+}
+.contain .top-ar .ar{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+}
+.contain .top-ar .user{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+.contain{
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 254px;
+}
+.contain h2{
+    position: absolute;
+    top: 100px;
+}
+.contain .like{
+    border: 1px solid white;
+    position: absolute;
+    top: 150px;
+    width: 100px;
+}
+.contain .q img{
+    width: 70px;
+}
+.contain .q{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    width: 280px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: #303131;
+    
+}
+.contain #grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit(250px,1fr));
+}
+.contain .q p{
+    margin: 25px;
+}
+.contain .w{
+    margin: 0 305px;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    
+
+    
+}
+.container .list_container{
+    display: flex;
+    justify-content: space-between;
+}
+.container .left{
+    display: flex;
+}
+.container .right{
+    display: flex;
+    align-items: end;
+}
+.container .arrow{
+    width: 130px;
+    height: 50px;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    top: -475px; 
+    left: 250px; 
+    width: 78%;
+}
+
+.item {
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    font-size: 18px;
+    height: 70px; /* Smaller height to match your screenshot */
+}
+
+.item img {
+    /* width: 60px; Smaller width to cover part of the left side */
+    height: 100%; /* Full height of the box */
+    border-radius: 10px 0 0 10px; /* Rounded left corners */
+    object-fit: cover; /* Ensures image covers the full height */
+}
+
+.item span {
+    margin-left: 15px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+.main1{
+    display: grid;
+    grid-template-columns: repeat(6,150px);
+    gap: 33px;
+    padding: 20px;
+    position: relative;
+    top: -430px;
+    left: 250px;
+    justify-items: center;
+    grid-auto-columns: minmax(100px,auto);
+    grid-auto-rows: minmax(50px,auto);
+}
+.item1{
+background-color: #191918;
+text-align: center;
+
+}
+.item1 img{
+   display: flex;
+width: 157px;
+height: 76%;
+margin: 10px;
+}
+
+h2{
+    position: absolute;
+    top: 332px;
+    left: 275px;
+
+}
+h1{
+    position: absolute;
+    top: 80px;
+    left: 270px;
 }
