@@ -7,6 +7,8 @@
 
 }
 .sidebar{
+    position: relative;
+    top: 235px; 
     width: 250px;
 }
 body{
@@ -187,7 +189,7 @@ height: 100px;
     gap: 20px;
     padding: 20px;
     position: relative;
-    top: -475px; 
+    top: -250px; 
     left: 250px; 
     width: 78%;
 }
@@ -220,7 +222,7 @@ height: 100px;
     gap: 33px;
     padding: 20px;
     position: relative;
-    top: -430px;
+    top: -190px;
     left: 250px;
     justify-items: center;
     grid-auto-columns: minmax(100px,auto);
